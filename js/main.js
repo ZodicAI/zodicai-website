@@ -16,9 +16,9 @@ $(document).ready(function() {
   
       $.ajax({
         type: 'POST',
-        url: 'http://localhost:8080/register', // Replace this with your actual backend URL
-        data: JSON.stringify(formData), // Convert the formData object to a JSON string
-        contentType: 'application/json', // Specify the content type of the request
+        url: 'https://api.zodicai.com/register',
+        data: JSON.stringify(formData),
+        contentType: 'application/json',
         success: function(response) {
             // Handle success
             $('.alert-success').show();
