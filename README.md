@@ -1,0 +1,2 @@
+# zodicai-website
+ZodicAI
