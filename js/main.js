@@ -16,7 +16,7 @@ $(document).ready(function() {
   
       $.ajax({
         type: 'POST',
-        url: 'https://api.zodicai.com/register',
+        url: 'https://zodicai-main-7pi5pfxc3a-uc.a.run.app/register',
         data: JSON.stringify(formData),
         contentType: 'application/json',
         success: function(response) {
